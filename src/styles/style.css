@@ -1,0 +1,830 @@
+.footer {
+    background-color: #E0E1DD;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.footer p{
+    padding: 0;
+    margin: 0;
+}
+
+/* --- Estilos para la página de login --- */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.login-form {
+    background-color: #ffffff;
+    border: 2px solid #bebcbc;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-form p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+/* titulos*/
+.h1{
+    text-align: center;
+    margin: 0;
+    font-size:50px;
+    color: #083208;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #008000;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #006400;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #008000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* --- Estilos para la página de registro --- */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.register-form {
+    background-color: #ffffff;
+    border: 2px solid #bebcbc;
+    border-radius: 10px;
+    padding: 5px 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.register-form p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #008000;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #006400;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #008000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* --- Estilos para el Dashboard --- */
+.dashboard-container {
+    padding: 1px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dashboard-container h1 {
+    color: #008000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.finance-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    /* Para que se ajuste en pantallas pequeñas */
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.card-red {
+    background-color: #F44336;
+    color: white;
+}
+
+.card-yellow {
+    background-color: #FFC107;
+    color: #333;
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+}
+
+.card p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.transaction-form {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #008000;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #006400;
+}
+
+/* --- Estilos para la página de perfil --- */
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 2.5rem;
+}
+
+.page-subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.profile-container {
+    display: flex;
+    gap: 30px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #FFC107;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+.user-info strong {
+    font-size: 1.1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 12px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #d0d0d0;
+}
+
+.main-content {
+    flex: 1;
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 8px;
+} 
+
+.main-content h2 {
+    color: #020202;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #636161;
+    border-radius: 4px;
+    font-size: 1rem;
+    height: 30px;
+}
+
+.btn-guardar {
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    width: auto;
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
+    transition: background-color 0.2s;
+}
+
+.btn-guardar:hover {
+    background-color: #218838;
+}
+
+.sidebar-buttons {
+    list-style: none;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar-buttons li {
+    width: 90%;
+}
+
+.sidebar-buttons a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.2s;
+    font-weight: 500;
+}
+
+.sidebar-buttons a:hover {
+    background-color: #d0d0d0;
+}
+
+/* Estilos para la página de Metas */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+.metas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.meta-row {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.meta-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.meta-description {
+    flex: 1;
+    padding: 15px;
+    background-color: #ffc107;
+    color: #333;
+    font-weight: 500;
+}
+
+.meta-amount {
+    width: 120px;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.meta-actions {
+    display: flex;
+    gap: 8px;
+    padding: 0 10px;
+}
+
+/* --- Botones específicos de Metas --- */
+.meta-btn-delete,
+.meta-btn-add {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.meta-btn-delete {
+    background-color: #dc3545;    
+    color: white;
+}
+
+.meta-btn-delete:hover {
+    background-color: #c82333;
+}
+
+.meta-btn-add {
+    background-color: #28a745;
+    color: white;
+}
+
+.meta-btn-add:hover {
+    background-color: #218838;
+}
+
+/* --- Botón de "Nueva Meta" --- */
+.new-meta-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+
+/* historial */
+.historial-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    transform: scale(0.9);
+    transform-origin: top center;
+}
+
+.titulo-historial {
+    font-size: 48px;
+    font-weight: bold;
+    ;
+}
+
+.tabla-historial {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 18px;
+    border: 1px solid #9d9b9b;
+}
+
+.tabla-historial th,
+.tabla-historial td {
+    border: 1px solid #9d9b9b;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.ingreso {
+    background-color: #8ae683;
+}
+
+.gasto {
+    background-color: #0e8a00;
+}
+
+.descripcion {
+    background-color: #ffcc75;
+}
+.acciones-col {
+    width: 10px;
+    text-align: center;
+}
+
+/* BOTONES */
+.btn-delete,
+.btn-edit {
+    background: #ff5a36;
+    border: 1px solid #9d9b9b;
+    padding: 5px 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+/* Botón editar */
+.btn-edit {
+    background: #8ce3a6;
+}
+
+.acciones-col button {
+    margin: 0 0px;
+}
+
+
+.tabla-historial td:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* BUSCADOR */
+.titulo-buscar {
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.form-busqueda {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.fechas-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.grupo-fecha {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.grupo-fecha input {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btn-buscar {
+    width: 100%;
+    background-color: #00952c;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn-descargar {
+    width: 100%;
+    background-color: #f2b637;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* --- Modal de edición --- */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: -1%;
+    width: 110%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 2000;
+}
+
+.modal-content {
+    background: #E0E1DD;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.modal-content-guardar{
+
+     background: #00952c;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+}
+.modal-content-descargar{
+
+     background: #f2b637;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+}
+
+.modal-content h3 {
+    margin-top: 0;
+    color: #000000;
+    text-align: center;
+}
+
+.modal-field {
+    margin-bottom: 15px;
+}
+
+.modal-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #444;
+}
+
+.modal-field input,
+.modal-field select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.modal-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    /* Rojo */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-save {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-save:hover {
+    background-color: #218838;
+}
+
+.btn-secondary:hover {
+    background-color: #c82333;
+}
